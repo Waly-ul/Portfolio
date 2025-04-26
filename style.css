@@ -13,6 +13,11 @@
     font-family: 'Segoe UI', sans-serif;
   }
 
+  #about p, #experience p {
+    text-align: justify;
+  }
+  
+
   body {
     background: var(--light);
     color: var(--primary);
@@ -175,9 +180,5 @@
 
     .timeline-item::before {
       left: -20px;
-    }
-
-    #experience{
-      text-align: justify;
     }
   }
